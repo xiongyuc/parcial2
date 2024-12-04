@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="h4">nombre</th>
+          <th class="h4">edad</th>
+        </tr>
+      </thead>  
+      <tbody>
+        <tr *ngFor="let c of pacientes">
+          <td>
+            <dd>{{c.nombre}}</dd>
+          </td>
+          <td>
+            <dd>{{c.edad}}</dd>
+          </td>
+
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
